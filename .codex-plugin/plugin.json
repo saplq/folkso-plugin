@@ -1,0 +1,36 @@
+{
+  "name": "folkso",
+  "version": "1.0.8",
+  "description": "Find real people for a task right in the conversation: specialists, consultants, teammates, mentors, investors and people to meet. Send an introduction request after a preview, and keep your own Folkso profile up to date.",
+  "author": {
+    "name": "Folkso",
+    "email": "hello@folkso.app",
+    "url": "https://folkso.app"
+  },
+  "homepage": "https://folkso.app/help",
+  "repository": "https://github.com/saplq/folkso-plugin",
+  "license": "MIT",
+  "keywords": ["people", "hiring", "freelance", "networking", "introductions"],
+  "skills": "./skills/",
+  "mcpServers": {
+    "folkso": {
+      "url": "https://folkso.app/api/mcp"
+    }
+  },
+  "interface": {
+    "displayName": "Folkso",
+    "shortDescription": "Find people for your task",
+    "longDescription": "Folkso finds real people for a task right in the conversation. Describe who you need for a job, a paid project, a startup team, a passion project, learning or meeting up in your city. Everyone in the results filled in a Folkso profile and chose to appear in AI answers.",
+    "developerName": "Folkso",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://folkso.app",
+    "privacyPolicyURL": "https://folkso.app/privacy",
+    "termsOfServiceURL": "https://folkso.app/terms",
+    "defaultPrompt": [
+      "Find a React developer in Europe for a contract.",
+      "Did anyone reply to my Folkso request?",
+      "Help me create my Folkso profile."
+    ]
+  }
+}

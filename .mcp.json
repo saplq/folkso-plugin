@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "folkso": {
+      "type": "http",
+      "url": "https://folkso.app/api/mcp"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "folkso",
   "displayName": "Folkso",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Find real people for a task right in the conversation: specialists, consultants, teammates, mentors, investors and people to meet. Send an introduction request after a preview, and keep your own Folkso profile up to date.",
   "author": {
     "name": "Folkso",
@@ -10,6 +10,7 @@
   },
   "homepage": "https://folkso.app/help",
   "privacyPolicyUrl": "https://folkso.app/privacy",
+  "icon": "./.claude-plugin/icon.png",
   "license": "MIT",
   "keywords": ["people", "hiring", "freelance", "networking", "introductions"]
 }

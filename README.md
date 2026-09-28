@@ -24,7 +24,7 @@ Tell your AI who you need and how you like to work together. Folkso shows real p
 
 **ChatGPT.** Install Folkso from the ChatGPT plugin directory and sign in. [Step by step](https://folkso.app/help#chatgpt)
 
-**Claude.** Add Folkso in Settings, Connectors, and sign in. It then works in the Claude apps and in Claude Code on the same account. [Step by step](https://folkso.app/help#claude)
+**Claude.** [Add Folkso to Claude](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Folkso&connectorUrl=https%3A%2F%2Ffolkso.app%2Fapi%2Fmcp), the connector dialog opens with Folkso already filled in. Select Add, then Connect, and sign in. It works in the Claude apps and in Claude Code on the same account.
 
 **Claude Code**
 

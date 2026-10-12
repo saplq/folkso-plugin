@@ -5,7 +5,7 @@
 <h1 align="center">Folkso</h1>
 
 <p align="center">
-  The talent agent for your AI. Works in ChatGPT, Claude, Claude Code and Codex.<br>
+  The talent agent for your AI. Works in ChatGPT, Claude, Claude Code, Codex and Grok Bot.<br>
   <a href="https://folkso.app">folkso.app</a> · <a href="https://folkso.app/help">Help</a> · <a href="https://folkso.app/privacy">Privacy</a>
 </p>
 
@@ -22,9 +22,9 @@ Tell your AI who you need and how you like to work together. Folkso shows real p
 
 ## Install
 
-**ChatGPT.** Install Folkso from the ChatGPT plugin directory and sign in. [Step by step](https://folkso.app/help#chatgpt)
+**ChatGPT.** Connect Folkso in ChatGPT on the web and sign in. [Step by step](https://folkso.app/help#chatgpt)
 
-**Claude.** [Add Folkso to Claude](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Folkso&connectorUrl=https%3A%2F%2Ffolkso.app%2Fapi%2Fmcp), the connector dialog opens with Folkso already filled in. Select Add, then Connect, and sign in. It works in the Claude apps and in Claude Code on the same account.
+**Claude.** Open [Folkso in the Claude directory](https://claude.ai/directory/folkso), select Connect and sign in. It works in the Claude apps and in Claude Code on the same account.
 
 **Claude Code**
 
@@ -39,6 +39,12 @@ claude plugin install folkso@folkso
 codex plugin marketplace add saplq/folkso-plugin
 codex plugin add folkso@folkso
 codex mcp login folkso
+```
+
+**Grok Bot.** Paste this into the chat. Grok Bot shows the server name and address, you confirm, and a sign-in card opens Folkso in your browser.
+
+```text
+Add the Folkso MCP connector as a custom MCP server at https://folkso.app/api/mcp (name: folkso), then let me sign in.
 ```
 
 You sign in with Google or an email code. In Claude Code and Codex you can also paste the [setup prompt](https://folkso.app/help#agents), and the agent installs Folkso itself.
@@ -62,6 +68,7 @@ Your AI shows people as cards. Open one with **Details**, and ask it to write to
 | `.mcp.json`                       | Connects the Folkso server, `https://folkso.app/api/mcp`   |
 | `.claude-plugin`, `.codex-plugin` | The plugin for Claude, and for ChatGPT and Codex           |
 | `.agents/plugins`                 | Lets Codex install the plugin from this repository         |
+| `.cursor-plugin`                  | The plugin for Cursor                                      |
 
 ## Privacy
 

@@ -73,6 +73,7 @@ Your AI shows people as cards. Open one with **Details**, and ask it to write to
 ## Privacy
 
 - Folkso gets the conditions of your task and a short summary of it. It never reads your chat history or your AI's memory.
+- After a search, your AI can add a short take on each person to their card. Only you see it, and Folkso deletes it after 30 days.
 - Other people's contacts never reach the model. You swap contacts in Folkso after the person accepts your request.
 - Your own contacts reach the model masked.
 

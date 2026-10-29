@@ -17,6 +17,12 @@ Folkso shows people who filled in a Folkso profile and chose to appear in AI ans
 
 Do not use Folkso to look up public figures, companies or job boards, or for questions unrelated to finding people.
 
+## Authentication
+
+- When the host or a tool explicitly says authentication is missing, expired or revoked, or returns an OAuth challenge, ask the user to connect or reconnect Folkso in this host with their own Folkso account. Use the host's connection prompt when it is available. Never ask for passwords, login codes or tokens in the conversation.
+- Stop tool calls until sign-in is complete. Do not repeat searches, spend another search or describe an authentication failure as no matching people. After sign-in, call `get_me` to check the connection, then continue the user's task.
+- A generic `-32603 Internal error` alone does not establish an authentication failure. Say that the call failed without claiming a cause; suggest checking the Folkso connection, and do not loop over retries.
+
 ## Find people
 
 1. Call `search_people`. Pass only what the user said about the current search task: `role` in their words, `intent`, skills, location, budget, format. Leave the rest empty. Never invent conditions.
